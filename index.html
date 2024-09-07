@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+#hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 48px;
+}
+
+#hero p {
+    font-size: 24px;
+}
+
+#about {
+    padding: 2em;
+}
+
+#about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#skills {
+    padding: 2em;
+}
+
+#skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 20px;
+}
+
+#skills h3 {
+    font-size: 18px;
+}
+
+#skills progress {
+   
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Welcome to my personal site!</h1>
+        <p>I'm [Your Name], a [Your Profession] with a passion for [Your Passion].</p>
+        <img src="background.jpg" alt="Background Image">
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Profile Picture">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>
+                <h3>HTML/CSS</h3>
+                <progress value="90" max="100"></progress>
+            </li>
+            <li>
+                <h3>JavaScript</h3>
+                <progress value="80" max="100"></progress>
+            </li>
+            <li>
+                <h3>Python</h3>
+                <progress value="70" max="100"></progress>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <ul>
+            <li><a href="https://www.facebook.com/yourfacebookpage">Facebook</a></li>
+            <li><a href="https://www.twitter.com/yourtwitterhandle">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/yourlinkedinprofile">LinkedIn</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>
